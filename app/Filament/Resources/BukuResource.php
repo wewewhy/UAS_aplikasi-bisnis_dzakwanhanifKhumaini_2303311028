@@ -43,9 +43,9 @@ class BukuResource extends Resource
                             'Fiksi' => 'Fiksi',
                             'Non Fiksi' => 'Non Fiksi',
                         ])
-                        ->placeholder('Pilih Kategori') // Opsional
-                        ->required(), // Jika kategori harus diisi
-                ])->columns(2), // Menata field dalam 2 kolom
+                        ->placeholder('Pilih Kategori') 
+                        ->required(), 
+                ])->columns(2), 
             ]);
     }
 
